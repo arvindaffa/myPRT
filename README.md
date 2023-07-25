@@ -19,4 +19,9 @@ myPRT merupakan sebuah platform bisnis berbasis website yang menghubungkan Peker
 - Mengontrak Pekerja
 - Melakukan Pembayaran kepada Pekerja
 
+## Teknologi yang digunakan
+- PHP Laravel
+- Laravel Breeze
+- HTML & CSS
+
 ## Dokumentasi 
