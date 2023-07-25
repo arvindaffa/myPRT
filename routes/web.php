@@ -43,7 +43,7 @@ Route::get('/pelanggan/profil', function () {
 })->middleware(['auth', 'verified'])->name('profil');
 
 // user melakukan edit profil
-Route::middleware('auth')->group(function () {
+Route::middleware('auth:pekerja')->group(function () {
     Route::get('/pelanggan/profile', [ProfileController::class, 'edit'])->name('pelanggan.profile.edit');
     Route::patch('/pelanggan/profile', [ProfileController::class, 'update'])->name('pelanggan.profile.update');
     Route::delete('/pelanggan/profile', [ProfileController::class, 'destroy'])->name('pelanggan.profile.destroy');
